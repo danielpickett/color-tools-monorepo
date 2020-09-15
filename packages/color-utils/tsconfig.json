@@ -1,0 +1,15 @@
+{
+  "compilerOptions": {
+    "baseUrl": "src",
+    "strict": true,
+    "target": "es5",
+    "module": "commonjs",
+    "sourceMap": true,
+    "outDir": "dist",
+    "declaration": true,
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true
+  },
+  "include": ["src"],
+}

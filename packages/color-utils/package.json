@@ -1,0 +1,19 @@
+{
+  "name": "@danielpickett/color-utils",
+  "version": "1.0.0",
+  "description": "utilities for working with color",
+  "main": "dist/index.js",
+  "type": "dist/index.d.ts",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/danielpickett/color-tools-monorepo.git",
+    "directory": "packages/color-utils"
+  },
+  "author": "danielpickett",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "build": "rm -rf dist && tsc",
+    "start": "tsc -w"
+  }
+}

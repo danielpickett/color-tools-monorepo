@@ -1,0 +1,10 @@
+{
+  "name": "color-tools-monorepo",
+  "version": "1.0.0",
+  "description": "Monorepo for various tools for working with color and color palettes",
+  "repository": "git@github.com:danielpickett/color-tools-monorepo.git",
+  "author": "danielpickett <daniel@danielpickett.me>",
+  "license": "MIT",
+  "private": true,
+  "workspaces": ["packages/*"]
+}
