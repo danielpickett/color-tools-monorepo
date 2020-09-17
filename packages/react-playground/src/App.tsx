@@ -1,39 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
-import { hello } from "@danielpickett/color-utils";
+import React from 'react'
+import './App.css'
+import { contrast } from '@danielpickett/color-utils'
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          {hello()}
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <p>{contrast([120, 200, 0], [120, 255, 0])}</p>
     </div>
-  );
+  )
 }
 
-export default App;
-
-
-
-
-
-
-
-
-
-
-
-
+export default App
